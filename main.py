@@ -4,8 +4,8 @@ def start():
     print("What do you want to do?")
     print("1: write a task")
     print("2: add a note")
-    print("3: see tasks")
-    print("4: see notes")
+    print("3: see a task")
+    print("4: see a note")
     print("5: revise task")
     print("6: revise note")
     print("7: quit")
@@ -19,9 +19,9 @@ def badNamedFunction(input):
     elif (input == 2):
         addNote()
     elif (input == 3):
-        seeTasks()
+        seeTask()
     elif (input == 4):
-        seeNotes()
+        seeNote()
     elif (input == 5):
         reviseTask()
     elif (input == 6):

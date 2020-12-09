@@ -6,8 +6,10 @@ class Task:
 
     def returnAsJson(self):
         values = {
+            self.name:{
 	    "Task Name": self.name,
 	    "Task Description": self.description,
 	    "Time to complete": self.time
 		}
+            }
         return values
