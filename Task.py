@@ -4,7 +4,7 @@ class Task:
         self.description = description
         self.time = time
 
-    def returnAsJson(self):
+    def returnAsDict(self):
         values = {
             self.name:{
 	    "Task Name": self.name,
