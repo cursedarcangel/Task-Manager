@@ -9,6 +9,7 @@ def start():
     print("5: revise task")
     print("6: revise note")
     print("7: quit")
+
 start()
 
 choice = int(input())
